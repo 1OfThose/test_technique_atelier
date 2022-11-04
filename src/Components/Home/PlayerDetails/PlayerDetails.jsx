@@ -39,7 +39,7 @@ export default function PlayerDetails({ selectedPlayer, setOpenPlayerDetails, op
 				</div>
 				<div
 					ref={ref}
-					className="w-full lg:w-[95%] xl:w-[85%] mt-auto h-[1000px] bg-white shadow-3xl relative flex flex-col "
+					className="w-full lg:w-[95%] xl:w-[85%] mt-auto h-[1000px] bg-white shadow-3xl relative flex flex-col"
 				>
 					<div>
 						<div
@@ -55,10 +55,10 @@ export default function PlayerDetails({ selectedPlayer, setOpenPlayerDetails, op
 						</div>
 						<div className="flex items-start justify-between">
 							<div className="md:pl-64 md:pt-[7rem] px-6 pt-6 md:px-0">
-								<h1 className="mobileStrokedText md:strokedText text-4xl lg:text-[4rem] xl:text-[6rem] 2xl:text-[8rem] montserrat font-bold tracking-wider">
+								<h1 className="mobileStrokedText md:strokedText text-4xl md:text-[4rem] lg:text-[4rem] xl:text-[6rem] 2xl:text-[8rem] montserrat font-bold tracking-wider">
 									{selectedPlayer.firstname}
 								</h1>
-								<h1 className="text-4xl lg:text-[7rem] xl:text-[9rem] 2xl:text-[11rem] montserrat font-extrabold text-[#F2753B] lg:mt-12 xl:mt-20 2xl:mt-28">
+								<h1 className="text-4xl md:text-[5rem] lg:text-[7rem] xl:text-[9rem] 2xl:text-[11rem] montserrat font-extrabold text-[#F2753B] md:mt-7 lg:mt-12 xl:mt-20 2xl:mt-28">
 									{selectedPlayer.lastname}
 								</h1>
 							</div>
