@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/test_technique_atelier/static/css/main.c16016d3.css",
+    "main.js": "/test_technique_atelier/static/js/main.65b3e2a4.js",
+    "index.html": "/test_technique_atelier/index.html",
+    "main.c16016d3.css.map": "/test_technique_atelier/static/css/main.c16016d3.css.map",
+    "main.65b3e2a4.js.map": "/test_technique_atelier/static/js/main.65b3e2a4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c16016d3.css",
+    "static/js/main.65b3e2a4.js"
+  ]
+}
