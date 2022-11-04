@@ -7,11 +7,11 @@ export default function PlayerCard({ player, showPlayerDetails }) {
 			key={player.id}
 			className="flex flex-col md:flex-row items-center w-full shadow-xl bg-white md:h-[200px] overflow-hidden cursor-pointer relative"
 		>
-			<div className="w-full md:w-[40%] h-full overflow-hidden">
+			<div className="w-full w-[40%] h-full overflow-hidden">
 				<img
 					src={player.picture}
 					alt={`${player.firstname} ${player.lastname}`}
-					className={`w-[280px] absolute top-0 -right-8 md:right-auto md:left-0 ${
+					className={`w-[280px] absolute top-0 -right-8 lg:-left-3 md:-left-12 ${
 						player.lastname === "Williams" && `top-12 md:top-2 md:-left-0`
 					}`}
 				/>

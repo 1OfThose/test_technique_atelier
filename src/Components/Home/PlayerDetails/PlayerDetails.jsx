@@ -39,7 +39,7 @@ export default function PlayerDetails({ selectedPlayer, setOpenPlayerDetails, op
 				</div>
 				<div
 					ref={ref}
-					className="w-full md:w-[85%] mt-auto h-[1000px] bg-white shadow-3xl relative flex flex-col "
+					className="w-full lg:w-[95%] xl:w-[85%] mt-auto h-[1000px] bg-white shadow-3xl relative flex flex-col "
 				>
 					<div>
 						<div
@@ -54,11 +54,11 @@ export default function PlayerDetails({ selectedPlayer, setOpenPlayerDetails, op
 							/>
 						</div>
 						<div className="flex items-start justify-between">
-							<div className="md:pl-64 md:pt-[8rem] px-6 pt-6 md:px-0">
-								<h1 className="mobileStrokedText md:strokedText text-4xl md:text-[8rem] montserrat font-bold tracking-wider">
+							<div className="md:pl-64 md:pt-[7rem] px-6 pt-6 md:px-0">
+								<h1 className="mobileStrokedText md:strokedText text-4xl lg:text-[4rem] xl:text-[6rem] 2xl:text-[8rem] montserrat font-bold tracking-wider">
 									{selectedPlayer.firstname}
 								</h1>
-								<h1 className="text-4xl md:text-[11rem] montserrat font-extrabold text-[#F2753B] md:mt-24">
+								<h1 className="text-4xl lg:text-[7rem] xl:text-[9rem] 2xl:text-[11rem] montserrat font-extrabold text-[#F2753B] lg:mt-12 xl:mt-20 2xl:mt-28">
 									{selectedPlayer.lastname}
 								</h1>
 							</div>
@@ -75,7 +75,7 @@ export default function PlayerDetails({ selectedPlayer, setOpenPlayerDetails, op
 						</div>
 					</div>
 					<div className="flex flex-col md:flex-row items-start justify-between w-full md:w-[70%] self-end mt-2 md:mt-48 md:p-0 p-6">
-						<div className="w-full md:w-[55%] grid grid-cols-3 gap-8 md:gap-16">
+						<div className="w-full md:w-[55%] grid sm:grid-cols-2 xl:grid-cols-3 gap-8 md:gap-16 md:pl-24 lg:pl-9">
 							<div className="flex flex-col">
 								<span className="uppercase md:text-xl text-black/30 font-bold tracking-widest">
 									RANK
@@ -109,7 +109,7 @@ export default function PlayerDetails({ selectedPlayer, setOpenPlayerDetails, op
 									XX / XX / {new Date().getFullYear() - selectedPlayer.data.age}
 								</span>
 							</div>
-							<div className="flex flex-col md:col-span-2">
+							<div className="flex flex-col xl:col-span-2">
 								<span className="uppercase md:text-xl text-black/30 font-bold tracking-widest">
 									AGE
 								</span>

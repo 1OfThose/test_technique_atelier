@@ -66,7 +66,7 @@ export default function Home() {
 				selectedPlayer={selectedPlayer}
 			/>
 			<div className="container mx-auto flex items-start justify-start py-24 px-5 md:px-0">
-				<div className="flex flex-col items-center justify-center max-w-full w-full md:w-[40%]">
+				<div className="flex flex-col items-center justify-center max-w-full w-full md:w-[70%] lg:w-[50%] xl:w-[40%]">
 					<input
 						value={searchInputValue}
 						onChange={e => setSearchInputValue(e.target.value)}
